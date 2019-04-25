@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #ff6759;" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.LoginController">
+   <children>
+      <AnchorPane layoutY="98.0" prefHeight="303.0" prefWidth="700.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <JFXTextField id="loginUsername" fx:id="loginUsername" focusColor="#ff6659" layoutX="224.0" layoutY="119.0" prefHeight="25.0" prefWidth="253.0" promptText="Username" unFocusColor="#1d1d1d" />
+            <JFXPasswordField id="loginPassword" fx:id="loginPassword" focusColor="#ff6659" layoutX="224.0" layoutY="181.0" prefHeight="25.0" prefWidth="253.0" promptText="Password" unFocusColor="#1d1d1d" />
+            <JFXButton id="loginButton" fx:id="loginButton" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="385.0" layoutY="235.0" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: #ff6659;" text="Login" textAlignment="CENTER" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="272.0" layoutY="25.0" prefHeight="35.0" prefWidth="172.0" text="To Do List" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <JFXButton id="loginSignupButton" fx:id="loginSignupButton" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="564.0" layoutY="42.0" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: #ff6659;" text="Sign Up" textAlignment="CENTER" textFill="WHITE" />
+   </children>
+</AnchorPane>

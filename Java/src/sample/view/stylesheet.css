@@ -1,0 +1,21 @@
+#loginSignUpButton{
+        -fx-background-color:#2d2d2d;
+        -fx-background-radius: 15,15,14;
+        -fx-background-insets: 0 0 -1 0,0,1;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+#loginSignUpButton:hover{
+
+        -fx-background-color:#3d3d3d;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+#loginUsername:focused{
+    -fx-focus-color:#1d1d1d
+}
+#loginUsername:unfocused{
+    -fx-background-position: center;
+    -fx-transition: background 0.85;
+}
+/* unfocus color: #ff6659 */
