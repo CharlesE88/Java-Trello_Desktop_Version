@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.SignupController">
+   <children>
+      <AnchorPane prefHeight="100.0" prefWidth="700.0" style="-fx-background-color: #ff6659;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="24.0" prefHeight="17.0" prefWidth="200.0" text="To Do APP" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXTextField id="signUpFirstName" fx:id="signUpFirstName" focusColor="#ff6659" layoutX="224.0" layoutY="111.0" prefHeight="25.0" prefWidth="253.0" promptText="First Name" unFocusColor="#1d1d1d" />
+      <JFXTextField id="signUpLastName" fx:id="signUpLastName" focusColor="#ff6659" layoutX="224.0" layoutY="144.0" prefHeight="25.0" prefWidth="253.0" promptText="Last Name" unFocusColor="#1d1d1d" />
+      <JFXTextField id="signUpUsername" fx:id="signUpUsername" focusColor="#ff6659" layoutX="224.0" layoutY="178.0" prefHeight="25.0" prefWidth="253.0" promptText="Username" unFocusColor="#1d1d1d" />
+      <JFXTextField id="signUpLocation" fx:id="signUpLocation" focusColor="#ff6659" layoutX="224.0" layoutY="303.0" prefHeight="25.0" prefWidth="253.0" promptText="Location" unFocusColor="#1d1d1d" />
+      <JFXCheckBox id="signUpCheckBoxM" fx:id="signUpCheckBoxM" checkedColor="#ff6659" layoutX="273.0" layoutY="273.0" text="Male" unCheckedColor="#1d1d1d" />
+      <JFXCheckBox id="signUpCheckBoxF" fx:id="signUpCheckBoxF" checkedColor="#ff6659" layoutX="369.0" layoutY="273.0" text="Female" unCheckedColor="#1d1d1d" />
+      <JFXPasswordField id="signUpPassword" fx:id="signUpPassword" focusColor="#ff6659" layoutX="224.0" layoutY="212.0" prefHeight="25.0" prefWidth="253.0" promptText="Password" unFocusColor="#1d1d1d" />
+      <JFXButton id="signUpButton" fx:id="signUpButton" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="304.0" layoutY="352.0" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: #ff6659;" text="Sign Up" textAlignment="CENTER" textFill="WHITE" />
+   </children>
+</AnchorPane>

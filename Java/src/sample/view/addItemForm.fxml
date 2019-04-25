@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootPane" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddItemFormController">
+   <children>
+      <JFXTextField id="taskTextField" fx:id="taskTextField" focusColor="#ff6659" layoutX="150.0" layoutY="120.0" prefHeight="50.0" prefWidth="400.0" promptText="Task" unFocusColor="#1d1d1d">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField id="descriptionTextField" fx:id="descriptionTextField" focusColor="#ff6659" layoutX="150.0" layoutY="200.0" prefHeight="50.0" prefWidth="400.0" promptText="Description" unFocusColor="#1d1d1d">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton id="saveTaskButton" fx:id="saveTaskButton" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="304.0" layoutY="310.0" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: #ff6659;" text="Save Task" textAlignment="CENTER" textFill="WHITE" />
+      <JFXButton id="moveToCellPage" fx:id="moveToCellPage" buttonType="RAISED" layoutX="594.0" layoutY="361.0" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: #ff6659;" text="&gt;" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="homeScreenRootAnchor" fx:id="homeScreenRootAnchor" prefHeight="1000.0" prefWidth="1900.0" style="-fx-background-color: #17394d;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.HomeScreenController">
+   <children>
+      <AnchorPane opacity="0.35" prefHeight="52.0" prefWidth="1914.0" style="-fx-background-color: #111111;">
+         <children>
+            <JFXButton id="homeScreenAnchorLogoBtn" fx:id="homeScreenAnchorLogoBtn" alignment="CENTER" buttonType="RAISED" layoutX="916.0" layoutY="7.0" ripplerFill="WHITE" text="Trello" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <AnchorPane id="homeScreenRightAnchor" fx:id="homeScreenRightAnchor" layoutX="1744.0" layoutY="2.0" prefHeight="50.0" prefWidth="170.0">
+               <children>
+                  <JFXButton id="homeScreenRightAnchorAvatarBtn" fx:id="homeScreenRightAnchorAvatarBtn" buttonType="RAISED" layoutX="124.0" layoutY="9.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #ffffff;" text="Button" />
+                  <JFXButton id="homeScreenRightAnchorAddBtn" fx:id="homeScreenRightAnchorAddBtn" buttonType="RAISED" layoutX="13.0" layoutY="9.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #ffffff;" />
+                  <JFXButton id="homeScreenRightAnchorHelpBtn" fx:id="homeScreenRightAnchorHelpBtn" buttonType="RAISED" layoutX="50.0" layoutY="9.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #ffffff;" text="Button" />
+                  <JFXButton id="homeScreenRightAnchorNotificationBtn" fx:id="homeScreenRightAnchorNotificationBtn" buttonType="RAISED" layoutX="87.0" layoutY="9.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #ffffff;" text="Button" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="homeScreenRightAnchor" fx:id="homeScreenRightAnchor1" prefHeight="50.0" prefWidth="170.0">
+               <children>
+                  <JFXButton id="homeScreenHomeLeftAnchorBtn" fx:id="homeScreenHomeLeftAnchorBtn" buttonType="RAISED" layoutX="13.0" layoutY="9.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #ffffff;" />
+                  <JFXButton id="homeScreenLeftAnchorBoardsBtn" fx:id="homeScreenLeftAnchorBoardsBtn" alignment="CENTER" buttonType="RAISED" layoutX="50.0" layoutY="9.0" prefHeight="32.0" prefWidth="110.0" style="-fx-background-color: #ffffff;" text="Boards">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <JFXListView id="homeScreenBoardsListView" fx:id="homeScreenBoardsListView" layoutX="10.0" layoutY="52.0" prefHeight="600.0" prefWidth="290.0" style="-fx-background-color: #ffffff; -fx-background-radius: 8px; -fx-border-radius: 8px; -fx-border-width: 5px;" visible="false">
+         <effect>
+            <DropShadow offsetX="2.0" offsetY="2.0" />
+         </effect>
+      </JFXListView>
+      <JFXListView id="homeScreenAvatarListView" fx:id="homeScreenAvatarListView" layoutX="1611.0" layoutY="52.0" prefHeight="325.0" prefWidth="290.0" style="-fx-background-color: #ffffff; -fx-background-radius: 8px; -fx-border-radius: 8px; -fx-border-width: 5px;" visible="false">
+         <effect>
+            <DropShadow offsetX="2.0" offsetY="2.0" />
+         </effect>
+      </JFXListView>
+      <JFXListView id="homeScreenNotificationListView" fx:id="homeScreenNotificationListView" layoutX="1545.0" layoutY="52.0" prefHeight="600.0" prefWidth="359.0" style="-fx-background-color: #ffffff; -fx-background-radius: 8px; -fx-border-radius: 8px; -fx-border-width: 5px;" visible="false">
+         <effect>
+            <DropShadow offsetX="2.0" offsetY="2.0" />
+         </effect>
+      </JFXListView>
+      <JFXListView id="homeScreenHelpListView" fx:id="homeScreenHelpListView" layoutX="1545.0" layoutY="52.0" prefHeight="340.0" prefWidth="359.0" style="-fx-background-color: #ffffff; -fx-background-radius: 8px; -fx-border-radius: 8px; -fx-border-width: 5px;" visible="false">
+         <effect>
+            <DropShadow offsetX="2.0" offsetY="2.0" />
+         </effect>
+      </JFXListView>
+      <JFXListView id="homeScreenAddListView" fx:id="homeScreenAddListView" layoutX="1608.0" layoutY="52.0" prefHeight="280.0" prefWidth="296.0" style="-fx-background-color: #ffffff; -fx-background-radius: 8px; -fx-border-radius: 8px; -fx-border-width: 5px;" visible="false">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow offsetX="2.0" offsetY="2.0" />
+         </effect>
+      </JFXListView>
+   </children>
+</AnchorPane>
